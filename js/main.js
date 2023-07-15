@@ -50,10 +50,3 @@ function findQoute() {
   qoute.innerHTML = quotes[random].quote;
   writer.innerHTML = quotes[random].writer;
 }
-
-// for (var i = 0; i < quotes.length; i++) {
-//   var random = Math.floor(Math.random() * quotes.length);
-//   qoute.innerHTML = quotes[random].quote;
-//   writer.innerHTML = quotes[random].writer;
-// }
-// }
